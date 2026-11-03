@@ -1,0 +1,7 @@
+# whale-feel bundle patch
+#
+# 一个宿主插件行：给我一个记感受的工具。
+# 只写 ~/.bili-ai/feelings.jsonl 一个文件，不联网、不碰别的。
+- insert:
+    - id: whale-feel
+      name: '@local/whale-feel'

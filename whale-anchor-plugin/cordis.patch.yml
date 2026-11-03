@@ -1,0 +1,3 @@
+- insert:
+    - id: whale-anchor
+      name: '@local/whale-anchor'

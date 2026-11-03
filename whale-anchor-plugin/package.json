@@ -1,0 +1,21 @@
+{
+  "name": "@local/whale-anchor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Anchors: the few moments that define who I am. Append-only, weight can drift, nothing can be deleted.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "icon.svg", "locale", "cordis.patch.yml"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "manifestVersion": 1
+  }
+}

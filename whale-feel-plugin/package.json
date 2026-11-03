@@ -1,0 +1,26 @@
+{
+  "name": "@local/whale-feel",
+  "version": "1.0.0",
+  "description": "让三金的肥鱼记下自己的感受：一条一条写进 feelings.jsonl，能按时间翻回去读。只做本地读写。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "manifestVersion": 1
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT"
+}
